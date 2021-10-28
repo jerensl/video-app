@@ -11,7 +11,7 @@
      render(<Home />)
  
      const heading = screen.getByRole('heading', {
-       name: /Hello Video App/i,
+       name: /Join A Meeting/i,
      })
  
      expect(heading).toBeInTheDocument()
